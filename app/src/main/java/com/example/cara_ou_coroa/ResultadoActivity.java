@@ -1,16 +1,14 @@
-package com.example.one_activity_base_app;
-
-import android.os.Bundle;
+package com.example.cara_ou_coroa;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+import android.os.Bundle;
+
+public class ResultadoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_resultado);
     }
-
 }
